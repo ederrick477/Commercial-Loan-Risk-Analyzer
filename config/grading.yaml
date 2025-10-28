@@ -1,0 +1,8 @@
+version: default
+min_dscr_hard: 1.10
+max_ltv_hard: 0.85
+rules:
+  - { grade: "A", max_pd: 0.010, min_dscr: 1.50, max_ltv: 0.60 }
+  - { grade: "B", max_pd: 0.025, min_dscr: 1.35, max_ltv: 0.70 }
+  - { grade: "C", max_pd: 0.050, min_dscr: 1.20, max_ltv: 0.80 }
+  - { grade: "D", max_pd: 0.100, min_dscr: 1.10, max_ltv: 0.85 }
